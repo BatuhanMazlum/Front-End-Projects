@@ -1,0 +1,65 @@
+.bg-tusiad {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-tusiad:before {
+  content: "";
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: radial-gradient(circle, rgba(255,255,255,1) 22%, rgba(255,255,255,0) 100%), url(background.png);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.7;
+  height: 100%;
+}
+
+#text {
+  font-family: "Manrope";
+  font-weight: bold;
+  font-size: 16px;
+  color: #0b109f;
+}
+
+#text2 {
+  font-family: "Manrope";
+  font-size: 11.5px;
+  color: #2d2e36;
+}
+
+#buttontext {
+  font-size: 8.5px;
+  font-family: "Manrope";
+  color: #1b262e;
+  font-weight: bold;
+}
+
+#button {
+  background-color: #f7bd21;
+  border-radius: 13px;
+  border: none;
+}
+
+.logosec {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.cont {
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 73px;
+  margin-top: 70%;
+}
