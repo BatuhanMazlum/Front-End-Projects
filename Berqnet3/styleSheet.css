@@ -1,0 +1,323 @@
+body {
+    max-width: 700px;
+    margin: auto !important;
+}
+
+.container-fluid {
+    padding: 0px;
+    max-width: 100% !important;
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+.imgonimg {
+    left: 0;
+    right: 0;
+    margin-left: 19.2%;
+    margin-right: 19.2%;
+    top: 323px;
+    position: absolute;
+    max-width: 431px;
+    max-height: 105px;
+}
+
+@media only screen and (max-width: 700px) {
+    .imgonimg {
+        width: 61.57%;
+        top: 81.36%;
+    }
+}
+
+.posrel {
+    position: relative;
+    padding: 0px !important;
+}
+
+.gradi {
+    display:inline-block;
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%); /* FF3.6+ */
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%); /* IE10+ */
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.customimg {
+  position: relative;
+  z-index: -1;
+  display: block;
+}
+
+.textonimg {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 22.5px;
+    text-align: center;
+    letter-spacing: -0.56px;
+    color: #00377c;
+    text-shadow: -11.8px 2.1px 10px rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 11.839%;
+}
+
+@media only screen and (max-width: 700px) {
+    .textonimg {
+        font-size: 3.2vw;
+    }
+}
+
+.header1a {
+    font-family: Poppins;
+    font-size: 27.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #0146a6;
+}
+
+.longdash1 {
+  width: 172px;
+  height: 1px;
+  border-radius: 0.5px;
+  border: solid 1px #0146a6;
+  background-color: #0146a6;
+  margin: auto;
+}
+
+  .parag1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.29;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: #010101;
+  }
+
+  .header2a {
+    font-family: Poppins;
+    font-size: 21.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #fbb503;
+  }
+
+  .list1a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.35px;
+    color: #010101;
+  }
+
+  .qmark {
+    max-width: 125px;
+    height: 100%;
+    opacity: 0.5;
+    font-family: Axis;
+    font-size: 269px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -6.73px;
+    margin: auto !important;
+    color: rgba(251, 189, 44, 0.12);
+    position: absolute;
+    top: -50px;  
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    padding-top: 0;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+
+  @media only screen and (max-width: 470px) {
+    .qmark {
+      top: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 471px) and (max-width: 992px) {
+    .qmark {
+      top: 0px;
+    }
+  }
+
+  .header3a {
+    font-family: Poppins;
+    font-size: 27.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bgcolor {
+    background-color: #00377c;
+  }
+
+  .cont {
+    background-color: #0146a6;
+}
+
+  .longdash2 {
+    width: 357px;
+    height: 1px;
+    border-radius: 0.5px;
+    border: solid 1px #fff;
+    background-color: #fff;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .longdash2 {
+        width: 200px;
+    }
+  }
+
+  .list2a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.35px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .berqhref {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footercol1 {
+  height: 30px !important;
+  width: 30px !important;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 2px;
+}
+
+.footercol2 {
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 2.5px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.footercol3 {
+  height: 30px !important;
+  width: 30px !important;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 1.5px;
+}
+
+.footercol4 {
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 12.5px;
+  display: block;
+  padding: 3.5px;
+  font-family: Poppins;
+  font-weight: bold;
+  margin-top: 1px;
+  text-align: center;
+  color: black;
+}
+
+.fixheader1 {
+  font-size: 27.5px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #0146a6;
+}
+
+.fixlongdash3 {
+  width: 357px;
+  height: 1px;
+  margin: 10px 171px 24px 172px;
+  border-radius: 0.5px;
+  border: solid 1px #0146a6;
+  background-color: #0146a6;
+}
+
+@media only screen and (max-width: 400px) {
+  .fixlongdash3 {
+      width: 200px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .mobilemargin {
+      margin-bottom: 15px;
+  }
+}
+
+.para5 {
+  font-family: Poppins;
+  font-size: 10.5px;
+  letter-spacing: -0.26px;
+  color: white;
+}
+
+.fixheader2 {
+  font-size: 27.5px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Poppins;
+  color: white;
+}
+
+.fixlongdash4 {
+  width: 180px;
+  height: 1px;
+  margin: 11px 18px 42px 27px;
+  border-radius: 0.5px;
+  border: solid 1px #fff;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .visibility1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .visibility2 {
+    display: none;
+  }
+}
+
+.boldpart {
+  font-weight: bold;
+}
