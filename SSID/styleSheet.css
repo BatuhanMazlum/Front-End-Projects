@@ -1,0 +1,325 @@
+body {
+    background-image: url(background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1024px) {
+    #container {
+       margin-top: 35%;
+    }
+}
+
+#circle2 {
+    background: rgb(255, 255, 255);
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+}
+
+@media screen and (max-width: 1024px) {
+    #circle2 {
+       margin-top: 6%;
+    }
+}
+
+#circle {
+    background: rgb(255, 255, 255);
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    opacity: 0.5;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+}
+
+@media screen and (max-width: 1024px) {
+    #circle {
+       margin-top: 6%;
+    }
+}
+
+.logoimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 12%;
+    width: 165px;
+    height: 111px;
+    left: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .logoimg {
+       margin-top: 6%;
+    }
+}
+
+.text1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 23%;
+    left: 50%;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text1 {
+       margin-top: 60%;
+       text-align: center;
+       font-size: 28px;
+    }
+}
+
+.text2 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 26%; 
+    left: 50%;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text2 {
+       margin-top: 88%;
+       text-align: center;
+    }
+}
+
+.text3 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 27.8%;
+    left: 50%;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text3 {
+       margin-top: 100%;
+       text-align: center;
+    }
+}
+
+.phoneimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 23px;
+    height: 23px;
+    left: 38%; 
+    margin-top: 31%;
+}
+
+@media screen and (max-width: 1024px) {
+    .phoneimg {
+       margin-top: 115%;
+       left: 15%;
+       text-align: center;
+    }
+}
+
+.text4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 44%;
+    margin-top: 31%;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text4 {
+       margin-top: 115%;
+       left: 33%;
+    }
+}
+
+.text5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 49.5%;
+    margin-top: 31%;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: lighter;
+    color: white;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text5 {
+       margin-top: 115%;
+       left: 50%;
+    }
+}
+
+
+.mailimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 17px;
+    left: 51.5%; 
+    margin-top: 31%;
+}
+
+@media screen and (max-width: 1024px) {
+    .mailimg {
+       margin-top: 115%;
+       left: 57%;
+    }
+}
+
+.text6 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 58%;
+    margin-top: 31%;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    color: white;
+    text-rendering: geometricPrecision;
+}
+
+@media screen and (max-width: 1024px) {
+    .text6 {
+       margin-top: 115%;
+       left: 77%;
+    }
+}
+
+#rectangle1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 153px;
+    width: 215px;
+    background-color: white;
+    margin-top: 41%;
+    left: 22%;
+}
+
+.machbeeimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 145px;
+    height: 145px;
+    left: 22%; 
+    margin-top: 41%;
+}
+
+#rectangle2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 153px;
+    width: 215px;
+    background-color: white;
+    margin-top: 41%;
+    left: 41%;
+}
+
+.noticeimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 135px;
+    height: 69px;
+    left: 41%; 
+    margin-top: 41%;
+}
+
+#rectangle3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 153px;
+    width: 215px;
+    background-color: white;
+    margin-top: 41%;
+    left: 60%;
+}
+
+.machplayimg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 132px;
+    height: 76px;
+    left: 60%; 
+    margin-top: 41%;
+}
+
+#rectangle4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 153px;
+    width: 215px;
+    background-color: white;
+    margin-top: 41%;
+    left: 79%;
+}
+
+.deximg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 58px;
+    left: 79%; 
+    margin-top: 41%;
+}
+
+@media screen and (max-width: 1024px) {
+    .logodiv {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 150%;
+        left: 50%;
+        margin-top: 150%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .div2 {
+        position: relative;
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .div3 {
+        position: relative;
+        top: 340px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .div4 {
+        position: relative;
+        top: 510px;
+    }
+}
