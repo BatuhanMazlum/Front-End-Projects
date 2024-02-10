@@ -1,0 +1,392 @@
+body {
+    max-width: 700px;
+    margin: auto !important;
+}
+
+.container-fluid {
+    padding: 0px;
+    max-width: 100% !important;
+}
+
+.container {
+    max-width: 100% !important;
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+    .textonimg {
+        top: 120px;
+        max-width: 700px;
+        font-size: 22.5px !important;
+        font-family: Poppins;
+        font-weight: 300;
+        letter-spacing: -0.56px;
+        text-shadow: -11.8px 2.1px 10px rgba(0, 8, 31, 0.9);
+        margin: auto;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .textonimg {
+        top: 60px;
+        width: 90% !important;
+        font-size: 16px !important;
+        font-family: Poppins;
+        font-weight: 300;
+        letter-spacing: -0.56px;
+        text-shadow: -11.8px 2.1px 10px rgba(0, 8, 31, 0.9);
+        position: absolute;
+        left: 0 !important;
+        right: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 482px) {
+    .textonimg {
+        top: 80px;
+        width: 90% !important;
+        font-size: 19px !important;
+        font-family: Poppins;
+        font-weight: 300;
+        letter-spacing: -0.56px;
+        text-shadow: -11.8px 2.1px 10px rgba(0, 8, 31, 0.9);
+        left: 0 !important;
+        right: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        position: absolute;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .textonimg {
+        top: 120px;
+        width: 700px;
+        font-size: 22.5px !important;
+        font-family: Poppins;
+        font-weight: 300;
+        letter-spacing: -0.56px;
+        text-shadow: -11.8px 2.1px 10px rgba(0, 8, 31, 0.9);
+        margin: auto;
+        color: white;
+    }
+}
+
+    .header1 {
+        font-size: 27.5px;
+        text-align: center;
+        font-weight: 600;
+        font-family: Poppins;
+        color: #0146a6;
+        margin-bottom: 5px;
+    }
+
+    .longdash1 {
+        width: 103px;
+        height: 1px;
+        margin: auto;
+        border-radius: 0.5px;
+        border: solid 1px #0146a6;
+        background-color: #0146a6;
+        padding-top: 0px;
+    }
+
+    .para1 {
+        text-align: center;
+        font-style: Poppins;
+        font-size: 14px;
+        letter-spacing: -0.35px;
+        font-weight: 300;
+        line-height: 1.29;
+        color: #010101;
+    }
+
+    .cont {
+        background-color: #0146a6;
+    }
+
+    .header2 {
+        font-family: Poppins;
+        font-size: 27.5px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+    }
+
+    .longdash2 {
+        width: 357px;
+        height: 1px;
+        border-radius: 0.5px;
+        border: solid 1px #fff;
+        background-color: #fff;
+    }
+
+    .para2 {
+        color: #fbb503;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 21.5px;
+        font-weight: 600;    
+    }
+
+    .ellipse {
+        width: 84px;
+        height: 84px;
+        border: solid 2px #fbb503;
+        border-radius: 50%;
+        background-color: #fbb503;
+        position: relative;
+    }
+    .ellipse2 {
+        width: 80px;
+        height: 80px;
+        border: solid 2px #0146a6;
+        border-radius: 50%;
+        background-color: #0146a6;
+        position: absolute;
+    }
+
+    .ellipseimg {
+        width: 85px;
+        height: 85px;
+    }
+
+    .subheader1 {
+        font-family: Poppins;
+        font-size: 13.5px;
+        font-weight: 600;
+        text-align: center;
+        color: #fbb503;
+    }
+    
+    .para3 {
+        font-family: Poppins;
+        font-size: 12px;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .longdash3 {
+        width: 230px;
+        height: 1px;
+        border-radius: 0.5px;
+        border: solid 1px #0146a6;
+        background-color: #0146a6;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        border: solid 2px black;
+        border-radius: 50%;
+        background-color: black;
+        position: relative;
+    }
+
+    .circle2 {
+        width: 46px;
+        height: 46px;
+        border: solid 2px white;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .circleimg {
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    
+    @media only screen and (max-width: 992px) {
+        .aligningdiv {
+            margin-left: 46.5%;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .textcenterclass {
+            text-align: center !important;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .marginclass {
+            margin-bottom: 20px;
+        }        
+    }
+
+    .subheader2 {
+        font-size: 13px;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+        font-family: Poppins;
+    }
+
+    .para4 {
+        font-size: 12px;
+        color: black;
+        text-align: left;
+        font-family: Poppins;
+    }
+    
+    .link1 {
+        text-decoration: none;
+        color: #fbb503;
+        font-size: 12px;
+        font-family: Poppins;
+    }
+
+    .borderline {
+        width: 100%;
+        height: 1px;
+        color: rgb(204, 203, 203);
+        background-color: rgb(204, 203, 203);
+    }
+
+    @media only screen and (max-width: 992px) {
+        .borderline {
+            display: none;
+        }
+    }
+
+    .rightborder {
+        border-right: solid 1px rgb(204, 203, 203);
+    }
+
+    @media only screen and (max-width: 992px) {
+        .rightborder {
+            border: none;
+        }
+    }
+
+    .para5 {
+        font-family: Poppins;
+        font-size: 10.5px;
+        letter-spacing: -0.26px;
+        color: white;
+    }
+
+    .footercol1 {
+        height: 30px !important;
+        width: 30px !important;
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 2px;
+        margin-top: 15px;
+        padding: 2px;
+    }
+
+    .footercol2 {
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 2px;
+        margin-top: 15px;
+        margin-bottom: 2px;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+        padding: 2.5px;
+        font-family: Poppins;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+    }
+
+    .footercol3 {
+        height: 30px !important;
+        width: 30px !important;
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 2px;
+        padding: 5px;
+        margin-top: 1.5px;
+    }
+
+    .footercol4 {
+        border-width: 2px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 2px;
+        text-decoration: none;
+        font-size: 12.5px;
+        display: block;
+        padding: 3.5px;
+        font-family: Poppins;
+        font-weight: bold;
+        margin-top: 1px;
+        text-align: center;
+        color: black;
+    }
+
+    .berqhref {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    @media only screen and (max-width: 992px) {
+        .mobilemargin {
+            margin-bottom: 15px;
+        }
+    }
+
+    .fixheader1 {
+        font-size: 27.5px;
+        text-align: center;
+        font-weight: 600;
+        font-family: Poppins;
+        color: #0146a6;
+    }
+
+    .fixlongdash3 {
+        width: 357px;
+        height: 1px;
+        margin: 10px 171px 24px 172px;
+        border-radius: 0.5px;
+        border: solid 1px #0146a6;
+    }
+
+    @media only screen and (max-width: 357px) {
+        .fixlongdash3 {
+            width: 200px;
+        }
+    }
+
+    .fixheader2 {
+        font-size: 27.5px;
+        text-align: center;
+        font-weight: 600;
+        font-family: Poppins;
+        color: white;
+    }
+
+    .fixlongdash4 {
+        width: 180px;
+        height: 1px;
+        margin: 11px 18px 42px 27px;
+        border-radius: 0.5px;
+        border: solid 1px #fff;
+    }
